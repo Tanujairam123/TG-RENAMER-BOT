@@ -1,7 +1,7 @@
 from sample_config import Config
 
 class Translation(object):
-    START_TEXT = """Hello {name}ᎪᎷ ҒᎪՏͲᎬՏͲ ᎷᏦ 🗡️ ᎡᎬΝᎪᎷᎬᎡ ᏴϴͲ 🖊️.
+    START_TEXT = """Hello {}ᎪᎷ ҒᎪՏͲᎬՏͲ ᎷᏦ 🗡️ ᎡᎬΝᎪᎷᎬᎡ ᏴϴͲ 🖊️.
 Ꮖ ᏟᎪΝ ᎡᎬΝᎪᎷᎬ ᎽϴႮᎡ ҒᏆᏞᎬՏ ҒᎪՏͲᎬᎡ🖊️
 ՏᎬΝᎠ ᎷᎬ ᎪΝᎽ ҒᏆᏞᎬՏ Ͳϴ ᎡᎬΝᎪᎷᎬ 🖊️
 ՏᎬΝᎠ ᎷᎬ ᎪΝᎽ ᏢᎻϴͲϴՏ Ͳϴ ՏᎪᏙᎬ ͲᎻႮᎷᏴΝᎪᏆᏞ 🖊️

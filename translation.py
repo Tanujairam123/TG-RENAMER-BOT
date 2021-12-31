@@ -72,7 +72,7 @@ Please short your file name and try again!"""
 
 **🧰 Framework:** Pyrogram
 
-**👨‍💻 Developer:** [Anonymous](https://t.me/Ns_AnoNymouS)
+**👨‍💻 Developer:** [Anonymous](https://t.me/Tanujairam)
 
 **📮 Channel:** [MK PROJECTS](https://t.me/MKPROJECTS)
 

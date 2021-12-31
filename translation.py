@@ -68,6 +68,4 @@ Please short your file name and try again!"""
 
 **📮 Channel:** [NS BOT UPDATES](https://t.me/Ns_bot_updates)
 
-**👥 Group:** [NS BOT SUPPOTERS](https://t.me/Ns_Bot_supporters)
-
-**💻 Source Code:**[Press Me](https://github.com/Ns-AnoNymouS/TG-RENAMER-BOT)"""
+**👥 Group:** [NS BOT SUPPOTERS](https://t.me/Ns_Bot_supporte"

@@ -34,7 +34,7 @@ Type /help for more details."""
    
 
 
-Support Group : @MK_PROJECTS"""
+"""
     REPLY_TO_DOC_FOR_RENAME_FILE = "🤦‍♂️ Reply to a Telegram media to `/rename New Name.extension` with custom thumbnail support.\n\n(For uploading as file).\n\nSee /help for mor information. "
     REPLY_TO_DOC_FOR_RENAME_VIDEO = "🤦‍♂️ Reply to a Telegram media to `/rename_video New Name.extension` with custom thumbnail support.\n\n(For uploading as video).\n\nSee /help for mor information."
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
@@ -48,7 +48,7 @@ The given file name has {num} characters.
 ©️ <code>@renamer_Ns_bot</code>
 Please short your file name and try again!"""
 
-    About = """Hi __{}__,
+    About = """Hi __{}__, 
 
 **📝 Language:** Python 3
 
@@ -58,4 +58,4 @@ Please short your file name and try again!"""
 
 **📮 Channel:** [MK PROJECTS](https://t.me/MKPROJECTS)
 
-**👥 Group:** [MK SUPPOTERS](https://t.me/MK_SUPPORT1)
+**👥 Group:** [MK SUPPOTERS](https://t.me/MK_SUPPORT1)"""

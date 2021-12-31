@@ -1,50 +1,40 @@
 from sample_config import Config
 
 class Translation(object):
-    START_TEXT = """Hello <i><b>{}</b></i>,
+    START_TEXT = """Hello {name}ᎪᎷ ҒᎪՏͲᎬՏͲ ᎷᏦ 🗡️ ᎡᎬΝᎪᎷᎬᎡ ᏴϴͲ 🖊️.
+Ꮖ ᏟᎪΝ ᎡᎬΝᎪᎷᎬ ᎽϴႮᎡ ҒᏆᏞᎬՏ ҒᎪՏͲᎬᎡ🖊️
+ՏᎬΝᎠ ᎷᎬ ᎪΝᎽ ҒᏆᏞᎬՏ Ͳϴ ᎡᎬΝᎪᎷᎬ 🖊️
+ՏᎬΝᎠ ᎷᎬ ᎪΝᎽ ᏢᎻϴͲϴՏ Ͳϴ ՏᎪᏙᎬ ͲᎻႮᎷᏴΝᎪᏆᏞ 🖊️
+   
 
-This is a Telegram Rename clone of <a href='https://t.me/renamer_Ns_bot'>Renamer NS BOT</a> by {}
 
-I Can rename ✍ with custom thumbnail and upload as video/file
+ᏟᎪΝ ᎡᎬΝᎪᎷᎬ ✍ ᏔᏆͲᎻ ᏟႮՏͲϴᎷ ͲᎻႮᎷᏴΝᎪᏆᏞ ᎪΝᎠ ႮᏢᏞϴᎪᎠ ᎪՏ ᏙᏆᎠᎬϴ/ҒᏆᏞᎬ
 
 Type /help for more details."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "There is no upgrade plan till now it will be added in future"
-    DOWNLOAD_START_VIDEO = "Downloading to my server.....📥"
-    DOWNLOAD_START = "Downloading to my server.....📥"
-    UPLOAD_START_VIDEO = "Uploading as video.....📤"
-    UPLOAD_START = "Uploading as File.....📤"
+    DOWNLOAD_START_VIDEO = "ᎠϴᏔΝᏞϴᎪᎠᏆΝᏀ Ͳϴ ᎷᎽ ՏᎬᎡᏙᎬᎡ ᏢᏞՏ ᏔᎪᏆͲ..🎁"
+    DOWNLOAD_START = "ᎠϴᏔΝᏞϴᎪᎠᏆΝᏀ Ͳϴ ᎷᎽ ՏᎬᎡᏙᎬᎡ ᏢᏞՏ ᏔᎪᏆͲ..🎁"
+    UPLOAD_START_VIDEO = "ႮᏢᏞϴᎪᎠᏆΝᏀ ᎪՏ ᏙᏆᎠᎬϴ.. 📸"
+    UPLOAD_START = "ႮᏢᏞϴᎪᎠᏆΝᏀ ᎪՏ ҒᏆᏞᎬ...✉️"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations.I can't do anything for that 🤷‍♂️."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using [Anonymous](https://t.me/Ns_AnoNymouS)'s bot.**"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "ͲᎻᎪΝᏦ ᎽϴႮ ҒϴᎡ ႮՏᏆΝᏀ ᎷᎬ🗡️ ՏͲᎪᎽ ͲႮΝᎬᎠ"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds."
-    NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
+    NOT_AUTH_USER_TEXT = ᏢᏞᎬᎪՏᎬ /ႮᏢᏀᎡᎪᎠᎬ ᎽϴႮᎡ ՏႮᏴՏᏟᎡᏆᏢͲᏆϴΝ."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://t.me/Ns_Bot_supporters'>Ns Bot Supporters</a>"
-    SAVED_CUSTOM_THUMB_NAIL = "Custom File thumbnail saved ✅️ . This image will be deleted with in 24hr"
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
-    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
-    SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
+    SAVED_CUSTOM_THUMB_NAIL = ͲᎻᎬ ᏟႮՏͲϴᎷ ҒᏆᏞᎬ ՏႮᏟᏟᎬՏՏҒႮᏞ ՏᎪᏙᎬᎠ🗡️"
+    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ͲᎻᎬ ᏟႮՏͲϴᎷ ҒᏆᏞᎬ ᎠᎬᏞᎬͲᎬᎠ ՏႮᏟᏟᎬՏՏҒႮᏞᎽ"
+    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "💘ᎷᎬᎠᏆᎪ ᏟᏞᎬᎪᎡᎬᎠ ՏႮᏟᏟᎬՏՏҒႮᏞᏞᎽ"
+    SAVED_RECVD_DOC_FILE = "ᎠϴᏟႮᎷᎬΝͲ ᎠϴᏔΝᏞϴᎪᎠᎬᎠ ՏႮᏟᏟᎬՏՏҒႮᏞᏞᎽ✉️"
     CUSTOM_CAPTION_UL_FILE = "@renamer_Ns_bot"
-    NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
+    NO_CUSTOM_THUMB_NAIL_FOUND = ".ᏟႮՏͲϴᎷ ͲᎻႮᎷᏴΝᎪᏆᏞ ΝϴͲ ҒϴႮΝᎠ🧐."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    HELP_USER = """Hai <b><i>{}</i></b>, 
-
-I am Renamer bot ✍ by <a href='https://t.me/{}'>My Father 👨‍🏫</a>
-    
-1. Send Me A Thumbnail.
-
-2. Send me the file to be Renamed.
-
-3. Reply to that message with <code>/rename new name.extension</code>. with custom thumbnail support.\n(upload as file)
-
-4. Reply to that message with <code>/rename_vidoe new name.extension</code>. with custom thumbnail support.\n(uploading as Video)
-
+ 
    
-<b>Thanks to <i><a href="https://t.me/Ns_AnoNymous">Anonymous 👨‍🏫</a></i> for his source code. check /about for source code</b>
 
---------
 
-Support Group : @Ns_Bot_supporters"""
+Support Group : @MK_PROJECTS"""
     REPLY_TO_DOC_FOR_RENAME_FILE = "🤦‍♂️ Reply to a Telegram media to `/rename New Name.extension` with custom thumbnail support.\n\n(For uploading as file).\n\nSee /help for mor information. "
     REPLY_TO_DOC_FOR_RENAME_VIDEO = "🤦‍♂️ Reply to a Telegram media to `/rename_video New Name.extension` with custom thumbnail support.\n\n(For uploading as video).\n\nSee /help for mor information."
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."

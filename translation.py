@@ -45,11 +45,11 @@ Type /help for more details."""
 
    
 
-<b>Thanks to <i><a href="https://t.me/Ns_AnoNymous">Anonymous 👨‍🏫</a></i> for his source code. check /about for source code</b>
+
 
 --------
 
-Support Group : @Ns_Bot_supporters"""
+Support Group : https://t.me/MKPROJECTS"""
 
 
 
